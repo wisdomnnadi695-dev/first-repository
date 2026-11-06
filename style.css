@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    color: white;
+    padding: 15px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+hero{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: light blue;
+    gap: 15px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.card{
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+
+@media(min-width: 768px){
+    .features{
+        flex-direction: row;
+        gap: 20px;
+    }
+}
